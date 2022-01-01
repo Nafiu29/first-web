@@ -1,0 +1,41 @@
+body {
+    color: #2b2a2a;
+    background-color: #e4dede;
+}
+
+li {
+    color: #7852a9;;
+    background-color: #d7bfdc;
+}
+
+a.active,
+a:hover {
+    color: #d7bfdc;
+}
+
+li.active,
+li:hover {
+    background-color: #9b60c2;
+}
+
+td {
+    background-color: lightgrey;
+}
+
+th {
+    color: #d7bfdc;
+    background-color: #7852a9;
+}
+
+tfoot {
+    color: #7852a9;
+}
+
+.footer {
+    color: #d7bfdc;
+    background-color: #7852a9; /* fallback for gradient, just in case */
+    background-image: -webkit-linear-gradient(to right bottom, #b74ac5, #8752a9);
+    background-image:    -moz-linear-gradient(to right bottom, #b74ac5, #8752a9);
+    background-image:      -o-linear-gradient(to right bottom, #b74ac5, #8752a9);
+    background-image:         linear-gradient(to right bottom, #b74ac5, #8752a9);
+}

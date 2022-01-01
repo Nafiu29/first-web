@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'VarelaRound';
+    src: url('../asset/font/varelaround.eot');
+    src: url('../asset/font/varelaround.eot?#iefix') format('embedded-opentype'),
+         url('../asset/font/varelaround.woff') format('woff'),
+         url('../asset/font/varelaround.woff2') format('woff2'),
+         url('../asset/font/VarelaRound.ttf') format('truetype'),
+         url('../asset/font/varelaround.svg#VarelaRound') format('svg');
+    font-weight: normal;     
+    font-style: 'normal';     
+}
+
+/*@font-face {
+    font-family: 'Robotto';
+    src: url('../asset/font/varelaround.eot');
+    src: url('../asset/font/varelaround.eot?#iefix') format('embedded-opentype'),
+         url('../asset/font/varelaround.woff') format('woff'),
+         url('../asset/font/varelaround.woff2') format('woff2'),
+         url('../asset/font/VarelaRound.ttf') format('truetype'),
+         url('../asset/font/varelaround.svg#VarelaRound') format('svg');
+    font-weight: bold;     
+    font-style: 'normal';     
+}*/
+
+body {
+    font-size: 0.75em;
+    font-style: normal;
+    letter-spacing: 1px;
+    line-height: 17px;
+    font-weight: normal;
+    font-family: VarelaRound, Arial, Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+li,
+.footer {
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.feature p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+q {
+    font-style: italic
+}
